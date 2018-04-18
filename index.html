@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <h1 class="display-4 text-center mb-5">Weight Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="grmInput"
+                            type="number"
+                            class="form-control form-control-lg"
+                            placeholder="Enter grams here...">
+                    </div>
+                </form>
+                <div class="output">
+                    <div class="card mb-4">
+                        <div class="card-block">
+                            <h4>Pounds:</h4>
+                            <div id="lbsOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-block">
+                            <h4>Ounces:</h4>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-block">
+                            <h4>Grzywna:</h4>
+                            <div id="grwnOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

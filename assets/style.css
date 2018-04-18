@@ -1,0 +1,10 @@
+
+body {
+    margin: 5% auto;
+    background: rgba(83, 110, 92, 0.67);
+}
+
+.card {
+    padding: 2%;
+    background: #d7e2d5;
+}
